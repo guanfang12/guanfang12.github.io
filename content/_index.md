@@ -73,7 +73,7 @@ sections:
         - title: Master in control science and engineering
           company: Zhejiang University
           # company_url: ''
-          # company_logo: org-gc
+          company_logo: zju2
           # location: California
           date_start: '2022-09-01'
           date_end: ''
@@ -86,9 +86,9 @@ sections:
         - title: Bachelor in automation
           company: Zhejiang University
           # company_url: ''
-          # company_logo: org-x
+          company_logo: zju2
           # location: California
-          date_start: '2018-01-01'
+          date_start: '2018-09-01'
           date_end: '2022-06-01'
           # description: Taught electronic engineering and researched semiconductor physics.
     design:
