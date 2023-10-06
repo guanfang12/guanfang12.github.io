@@ -35,10 +35,11 @@ sections:
   #       gradient_end: '#1976d2'
   #       gradient_start: '#004ba0'
   #       text_color_light: true
-  - block: about.avatar
+  - block: about.biography
     id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
+      title: About Me
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
@@ -58,41 +59,41 @@ sections:
   #         description: 10%
   #         icon: camera-retro
   #         icon_pack: fas
-  - block: experience
-    content:
-      title: Education
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Master in control science and engineering
-          company: Zhejiang University
-          # company_url: ''
-          company_logo: zju2
-          # location: California
-          date_start: '2022-09-01'
-          date_end: ''
-          # description: |2-
-          #     Responsibilities include:
+  # - block: experience
+  #   content:
+  #     title: Education
+  #     # Date format for experience
+  #     #   Refer to https://wowchemy.com/docs/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Experiences.
+  #     #   Add/remove as many `experience` items below as you like.
+  #     #   Required fields are `title`, `company`, and `date_start`.
+  #     #   Leave `date_end` empty if it's your current employer.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - title: Master in control science and engineering
+  #         company: Zhejiang University
+  #         # company_url: ''
+  #         company_logo: zju2
+  #         # location: California
+  #         date_start: '2022-09-01'
+  #         date_end: ''
+  #         # description: |2-
+  #         #     Responsibilities include:
 
-          #     * Analysing
-          #     * Modelling
-          #     * Deploying
-        - title: Bachelor in automation
-          company: Zhejiang University
-          # company_url: ''
-          company_logo: zju2
-          # location: California
-          date_start: '2018-09-01'
-          date_end: '2022-06-01'
-          # description: Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
+  #         #     * Analysing
+  #         #     * Modelling
+  #         #     * Deploying
+  #       - title: Bachelor in automation
+  #         company: Zhejiang University
+  #         # company_url: ''
+  #         company_logo: zju2
+  #         # location: California
+  #         date_start: '2018-09-01'
+  #         date_end: '2022-06-01'
+  #         # description: Taught electronic engineering and researched semiconductor physics.
+  #   design:
+  #     columns: '2'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -186,25 +187,43 @@ sections:
   #     view: showcase
   #     # For Showcase view, flip alternate rows?
   #     flip_alt_rows: false
-  # - block: markdown
-  #   content:
-  #     title: Gallery
-  #     subtitle: ''
-  #     text: |-
-  #       {{< gallery album="demo" >}}
-  #   design:
-  #     columns: '1'
-  # - block: collection
-  #   id: featured
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: card
+  - block: markdown
+    content:
+      title: News
+      subtitle: ''
+      text: |
+        - [Sep. 2023] Our [HC-Net](https://arxiv.org/abs/2308.16906) is accepted by NeurIPS 2023! 🎉
+        - [Aug. 2023] We release [PointLLM](https://arxiv.org/abs/2308.16911), a multi-modal large language model capable of understanding point clouds! Try our demo [here](http://101.230.144.196/). 🤗
+        - [Aug. 2023] We release [HC-Net](https://arxiv.org/abs/2308.16906), a SOTA fine-grained cross-view geo-localization model! Demo [here](http://101.230.144.196:7860/). 📊
+    design:
+      columns: '2'
+
+
+
+  - block: collection
+    id: featured
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+        featured_only: false
+    design:
+      columns: '2'
+      view: community/pub
+
+  - block: markdown
+    content:
+      title: Selected Awards
+      subtitle: ''
+      text: |
+        - Invention Patent: AGV Adaptive Loading System Actively Integrating Intelligent Production Line Edge Status Information, 202111031683.3
+        - Outstanding Graduates of Zhejiang Province and Zhejiang University, 2022
+        - MCM/ICM Outstanding Winner Candidate (Finalist Award) (Top 2%), 2021
+        - First-class Scholarship of Zhejiang University, 2020
+    design:
+      columns: '2'
+
   # - block: collection
   #   content:
   #     title: Recent Publications

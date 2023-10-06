@@ -28,6 +28,8 @@ bio: My research interests include computer vision and deep learning.
 interests:
   - Computer Vision
   - Deep Learning
+  - SLAM
+  - Robotics
 
 # Education to show in About widget
 education:
@@ -47,18 +49,18 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto: xlking@zju.edu.cn'
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/GeorgeCushen
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/XiaolongWang_me
   #   label: Follow me on Twitter
   #   display:
   #     header: true
-  # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-  #   icon_pack: fas
-  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=OQRQMz0AAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/guanfang12
+    link: https://github.com/xlwangDev
   # - icon: linkedin
   #   icon_pack: fab
   #   link: https://www.linkedin.com/
@@ -76,5 +78,7 @@ email: ''
 highlight_name: true
 ---
 
-Xiaolong Wang was born in Shanxi, China, in 2000. He received the B.S. degree in automation form Zhejiang University, Hangzhou, in 2022. He is currently a M.S.student in control science and engineering form Zhejiang University, Hangzhou. His research interests include computer vision and deep learning.
+<!-- Welcome to my personal homepage! -->
+
+I am pursuing my Master's degree in Control Science and Engineering at Zhejiang University. In 2022, I successfully earned my Bachelor of Science (B.S.) degree in Automation from Zhejiang University. My research topics include satellite image-based localization, SLAM, 3D Computer Vision and Natural Language Processing.
 {style="text-align: justify;"}
