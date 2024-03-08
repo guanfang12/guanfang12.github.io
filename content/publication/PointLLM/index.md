@@ -3,11 +3,11 @@
 
 title: "PointLLM: Empowering Large Language Models to Understand Point Clouds"
 authors: [Runsen Xu, admin, Tai Wang, Yilun Chen, Jiangmiao Pang*, "Dahua Lin"]
-date: 2023-10-06T13:42:11+08:00
+date: '2023-08-24T13:42:11+08:00'
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-10-06T13:42:11+08:00
+publishDate: '2023-08-24T13:42:11+08:00'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

@@ -4,11 +4,11 @@
 title: "
 A Novel Geo-Localization Method for UAV and Satellite Images Using Cross-View Consistent Attention"
 authors: [Zhuofan Cui,Pengwei Zhou,admin,Zilun Zhang,Yingxuan Li,Hongbo Li*, Yu Zhang ]
-date: 2023-10-06T15:06:30+08:00
+date: '2023-08-23T15:06:30+08:00'
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-10-06T15:06:30+08:00
+publishDate: '2023-08-23T15:06:30+08:00'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
