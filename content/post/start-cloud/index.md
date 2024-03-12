@@ -53,7 +53,7 @@ sudo snap install --classic node
 
 ```bash
 wget https://github.com/gohugoio/hugo/releases/download/v0.123.0/hugo_extended_0.123.0_linux-amd64.deb
-sudo dkpg -i hugo_extended_0.123.0_linux-amd64.deb
+sudo dpkg -i hugo_extended_0.123.0_linux-amd64.deb
 ```
 
 遇到下载module失败的问题，要解决此问题，config/_defaults/module.yaml 中添加：
@@ -83,8 +83,10 @@ hugo server -D --bind 0.0.0.0
 为   github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7
 ```
 
-`./config/_defoult/module.yaml`中：
+`./config/_defoult/config.yaml`中：
 ```
 替换 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 为   github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
 ```
+
+如果服务器出现 `__vsc_prompt_cmd_original: command not found` ，在 `~/.bashrc` 中添加 `unset PROMPT_COMMAND`。
