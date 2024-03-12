@@ -37,12 +37,12 @@ featured: false
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: Paper
-  url: https://arxiv.org/abs/2308.16911
+# - name: Paper
+#   url: https://arxiv.org/abs/2308.16911
 #   icon_pack: fab
 #   icon: twitter
 
-# url_pdf:
+url_pdf: https://arxiv.org/pdf/2308.16911.pdf
 url_code: https://github.com/OpenRobotLab/PointLLM
 # url_dataset:
 # url_poster:
